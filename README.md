@@ -1,1 +1,1 @@
-# ParsAI
+# ScraperWizard
