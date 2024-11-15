@@ -1,7 +1,3 @@
-Here’s a README.md file for your "ScraperWizard" app tailored to the requirements specified in the document:
-
----
-
 # ScraperWizard
 
 ScraperWizard is an AI-powered application designed to automate information retrieval from the web based on user-defined prompts. This tool allows users to upload datasets, define search queries dynamically, and extract relevant information using advanced LLM capabilities. The extracted data can be displayed in a user-friendly dashboard and downloaded as structured files.
