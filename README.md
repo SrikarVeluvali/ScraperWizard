@@ -31,7 +31,7 @@ ScraperWizard is an AI-powered application designed to automate information retr
 ### Prerequisites
 
 - Python 3.8+
-- API keys for ScraperAPI (or equivalent) and Groq/OpenAI LLM API.
+- API keys for ScraperAPI (or equivalent), Groq API, Google Cloud OAuth, Google Cloud API Key.
 - Google Cloud account for accessing Google Sheets API.
 
 ## Project Structure
