@@ -143,10 +143,13 @@ The frontend will be available at `http://localhost:3000`.
 
 1. **Upload your data**:
    - Upload a CSV file or connect to a Google Sheet.
+     - ![image](https://github.com/user-attachments/assets/cbf94e3c-b77f-4622-a80e-187906cfbf6f)
    - Select the column containing entities for the search query.
+     - ![image](https://github.com/user-attachments/assets/d062875f-d280-4eb6-998d-a1e9ff46ae1b)
 
 2. **Define your prompt**:
    - Input a query template like: "Find the email address of {company}."
+     - ![image](https://github.com/user-attachments/assets/494dc646-3166-413d-b1f2-78757c68f63f)
    - The placeholder `{entity}` will be dynamically replaced for each row.
 
 3. **Retrieve and process data**:
@@ -154,7 +157,9 @@ The frontend will be available at `http://localhost:3000`.
 
 4. **View and download results**:
    - Extracted data is displayed in a table format.
-   - Download the results as a CSV or update the connected Google Sheet.
+     - ![image](https://github.com/user-attachments/assets/5f0c5797-1332-4b31-a496-21602e415a86)
+
+   - Download the results as a CSV.
 
 ## Optional Features
 
@@ -167,6 +172,6 @@ The frontend will be available at `http://localhost:3000`.
 - **Data Handling**: Pandas, Google Sheets API
 - **Search API**: ScraperAPI
 - **LLM API**: Groq
-- **Frontend**: ReactJS
+- **Frontend**: ReactJS, Tailwind CSS
 
 Made by Srikar Veluvali.
