@@ -168,3 +168,5 @@ The frontend will be available at `http://localhost:3000`.
 - **Search API**: ScraperAPI
 - **LLM API**: Groq
 - **Frontend**: ReactJS
+
+Made by Srikar Veluvali.
