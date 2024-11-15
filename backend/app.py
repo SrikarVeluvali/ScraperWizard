@@ -66,12 +66,14 @@ def get_catchy_headlines():
 
     logging.info(f"Performing Google search for topic: {topic}")
     search_results = google_search_query(topic)
+    print(search_results)
     logging.info("Parsing search results using Groq LLM.")
     
     prompt = (
         """You are an intelligent text extraction assistant. Your task is to extract information from the given web scraping result and print the top one output directly. The output should contain only the text extracted from the scraping result, with no additional commentary, explanations, or extraneous information. You could encounter cases where you can't find the data of the fields you have to extract or the data will be in a foreign language. Please process the following text and provide the output directly with no words before or after the output:"""
         f"Topic: {topic}\nSearch Results: {search_results}"
     )
+    logging.info(prompt)
     result = get_groq_chat_response(prompt)
     logging.info("Successfully generated catchy headlines.")
     return jsonify({"result": result})
