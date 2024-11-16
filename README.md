@@ -2,6 +2,10 @@
 
 ScraperWizard is an AI-powered application designed to automate information retrieval from the web based on user-defined prompts. This tool allows users to upload datasets, define search queries dynamically, and extract relevant information using advanced LLM capabilities. The extracted data can be displayed in a user-friendly dashboard and downloaded as structured files.
 
+## Loom Video
+This video describes the demo and a few important other points.
+[Loom Video](https://youtu.be/4v641dp8FMQ?si=lSfV-Ic-AkJPrIHE)
+
 ## Key Features
 
 - **File Upload & Google Sheets Integration**:
